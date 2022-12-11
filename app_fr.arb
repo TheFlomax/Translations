@@ -1,0 +1,528 @@
+{
+  "apiTypeDialog_title": "Impossible de détecter le type d'instance",
+  "@apiTypeDialog_title": {},
+  "apiTypeDialog_description": "Kaiteki a essayé de trouver le programme que l'instance utilise mais n'a pas réussi à le découvrir. Veuillez sélectionner le programme utiliser par l'instance dans la liste ci-dessous.",
+  "@apiTypeDialog_description": {},
+  "apiTypeDialog_missing": "Il manque quelque chose ?",
+  "@apiTypeDialog_missing": {},
+  "mfaTitle": "Two-Factor-Authentication",
+  "@mfaTitle": {},
+  "mfaNoCode": "Veuillez saisir le code",
+  "@mfaNoCode": {},
+  "okButtonLabel": "OK",
+  "@okButtonLabel": {},
+    "cancelButtonLabel": "Annuler",
+  "@cancelButtonLabel": {},
+  "verifyButtonLabel": "Vérifier",
+  "@verifyButtonLabel": {},
+  "removeButtonLabel": "Supprimer",
+  "@removeButtonLabel": {},
+  "viewPostButtonLabel": "Voire le poste",
+  "@viewPostButtonLabel": {},
+  "continueAnywayButtonLabel": "Continuer quand même",
+  "@continueAnywayButtonLabel": {},
+  "abortButtonLabel": "Abandonner",
+  "@abortButtonLabel": {},
+  "sharedBackendFunctionality": "Voici les fonctionnalités que {api} et Kaiteki prennent en charge :",
+  "@sharedBackendFunctionality": {
+    "placeholders": {
+      "api": {
+        "description": "Nom du programme de l'instance.",
+        "example": "Pleroma"
+      }
+    }
+  },
+  "reactionSupport": "Réactions",
+  "@reactionSupport": {},
+  "reactionSupportDescription": "Ajouter des réactions aux poste",
+  "chatSupport": "Chats",
+  "chatSupportDescription": "Envoyer des messages instantanés à d'autres utilisateurs",
+  "@chatSupport": {},
+  "previewSupport": "Prévisualisation du poste",
+  "previewSupportDescription": "Voir un aperçu de votre message avant de l'envoyer",
+  "@previewSupport": {},
+  "discoverInstancesButtonLabel": "Découvrir les instances",
+  "@discoverInstancesButtonLabel": {},
+  "discoverInstancesTitle": "Découvrir les Instances",
+  "@discoverInstancesTitle": {},
+  "discoverInstancesDisclaimer": "Il s'agit d'une liste d'instances triées sur le volet, recommandées par les développeurs de Kaiteki et de tous les programmes d'instances pris en charge.",
+  "@discoverInstancesDisclaimer": {},
+  "chooseButtonLabel": "Choisir",
+  "@chooseButtonLabel": {},
+  "runsOn": "Fonctionne avec {api}",
+  "@runsOn": {
+    "placeholders": {
+      "api": {
+        "description": "Nom du programme de l'instance.",
+        "example": "Pleroma"
+      }
+    }
+  },
+  "usesFediverseCovenant": "Utilise le protocole de modération favorable au Fediverse.",
+  "@usesFediverseCovenant": {},
+  "usesMastodonCovenant": "Utilise le Mastodon Server Covenant",
+  "@usesMastodonCovenant": {},
+  "visibilityButtonTooltip": "Modifié la portée du poste",
+  "@visibilityButtonTooltip": {},
+  "attachButtonTooltip": "Épinglé",
+  "@attachButtonTooltip": {},
+  "emojiButtonTooltip": "Ajouter un emoji",
+  "@emojiButtonTooltip": {},
+  "formattingButtonTooltip": "Modifier la mise en page",
+  "@formattingButtonTooltip": {},
+  "aboutInstanceTitle": "À propos de {instance}",
+  "@aboutInstanceTitle": {
+    "placeholders": {
+      "instance": {
+        "description": "Nom de domaine/nom d'hôte de l'instance",
+        "example": "fedi.absturztau.be"
+      }
+    }
+  },
+  "aboutBackendTitle": "À propos de {api}",
+  "@aboutBackendTitle": {
+    "placeholders": {
+      "api": {
+        "description": "Nom du programme de l'instance.",
+        "example": "Pleroma"
+      }
+    }
+  },
+  "loginButtonLabel": "Connexion",
+  "@loginButtonLabel": {},
+  "featureSupported": "{feature} est pris en charge",
+  "@featureSupported": {
+    "placeholders": {
+      "feature": {
+        "description": "Le nom de la fonction, est toujours au pluriel.",
+        "example": "Prévisualisation des postes"
+      }
+    }
+  },
+  "featureUnsupported": "{feature} n'est pas prise en charge",
+  "@featureUnsupported": {
+    "placeholders": {
+      "feature": {
+        "description": "Le nom de la fonction, est toujours au pluriel.",
+        "example": "Prévisualisation des postes"
+      }
+    }
+  },
+  "rules": "Régles",
+  "@rules": {},
+  "rulesLearnMore": "En savoir plus sur les règles",
+  "@rulesLearnMore": {},
+  "postPreviewTitle": "Prévisualisation",
+  "@postPreviewTitle": {},
+  "postPreviewWaiting": "Commencez à rédiger un article pour voir un aperçu !",
+  "@postPreviewWaiting": {},
+  "composeBodyHint": "Je viens d'atterrir à L.A.",
+  "@composeBodyHint": {},
+  "composeSubjectHint": "Sujet (facultatif)",
+  "@composeSubjectHint": {},
+  "postSubmissionFailed": "Échec de l'envoi du poste",
+  "@postSubmissionFailed": {},
+  "postSubmissionSending": "Envoyer le poste",
+  "@postSubmissionSending": {},
+  "postSubmissionSent": "Poste envoyé",
+  "@postSubmissionSent": {},
+  "submitButtonTooltip": "Envoyer",
+  "@submitButtonTooltip": {},
+  "empty": "Ça a l'air vide ici...",
+  "@empty": {},
+  "postsTab": "Postes",
+  "@postsTab": {},
+  "followersTab": "Abonné·e·s",
+  "@followersTab": {},
+  "followingTab": "Abonnements",
+  "@followingTab": {},
+  "timelineTab": "Historiques",
+  "@timelineTab": {},
+  "notificationsTab": "Notifications",
+  "@notificationsTab": {},
+  "chatsTab": "Chats",
+  "@chatsTab": {},
+  "niy": "Pas encore implémenté",
+  "@niy": {},
+  "settings": "Paramètre",
+  "@settings": {},
+  "welcome": "Bienvenue à Kaiteki !",
+  "@welcome": {},
+  "accountRequiredToContinue": "Pour continuer, vous devez vous connecter à au moins une instance.",
+  "@accountRequiredToContinue": {},
+  "settingsHideSensitivePosts": "Masquer les messages sensibles",
+  "@settingsHideSensitivePosts": {},
+  "settingsSensitivePosts": "Postes sensibles",
+  "@settingsSensitivePosts": {},
+  "settingsSubjectPosts": "Postes avec sujets",
+  "@settingsSubjectPosts": {},
+  "settingsDisabled": "Désactiver",
+  "@settingsDisabled": {},
+  "creditsTitle": "Crédits",
+  "@creditsTitle": {},
+  "failedToLaunchUrl": "L'URL n'a pas pu être ouverte",
+  "@failedToLaunchUrl": {},
+  "settingsAbout": "À propos de Kaiteki",
+  "@settingsAbout": {},
+  "settingsGeneral": "Général",
+  "@settingsGeneral": {},
+  "settingsProfile": "Profile",
+  "@settingsProfile": {},
+  "settingsSecurity": "Sécurité",
+  "@settingsSecurity": {},
+  "settingsFiltering": "Filtres",
+  "@settingsFiltering": {},
+  "settingsNotifications": "Notifications",
+  "@settingsNotifications": {},
+  "settingsImportExport": "Importation/exportation des données",
+  "@settingsImportExport": {},
+  "settingsMutesBlocks": "Mettre en sourdines et bloquer",
+  "@settingsMutesBlocks": {},
+  "settingsKaiteki": "Paramètre de Kaiteki",
+  "@settingsKaiteki": {},
+  "settingsCustomization": "Customisation",
+  "@settingsCustomization": {},
+  "settingsTabs": "Tabs",
+  "@settingsTabs": {},
+  "settingsDebugMaintenance": "Debug et Maintenance",
+  "@settingsDebugMaintenance": {},
+  "authNoInstance": "Veuillez entrer une instance",
+  "@authNoInstance": {},
+  "authNoPassword": "Veuillez entrer un mot de passe",
+  "@authNoPassword": {},
+  "authNoUsername": "Veuillez entrer le nom d'utilisateur",
+  "@authNoUsername": {},
+  "authDuplicate": "Un compte avec la même instance et le même nom d'utilisateur est déjà connecter.",
+  "@authDuplicate": {},
+  "authNoUrlAllowed": "Veuillez fournir uniquement le nom de domaine",
+  "@authNoUrlAllowed": {},
+  "authOAuthPending": "En attente de la fin de OAuth...",
+  "@authOAuthPending": {
+    "description": "Kaiteki attend qu'un site web externe confirme une demande d'autorisation."
+  },
+  "loginTitle": "Se connecter à une instance",
+  "@loginTitle": {},
+  "loginTitleInstance": "Se connecter à {instance}",
+  "@loginTitleInstance": {
+    "placeholders": {
+      "instance": {
+        "description": "Nom de l'instance",
+        "example": "'the wired' ou à défaut 'letsalllovela.in'."
+      }
+    }
+  },
+  "nextButtonLabel": "Suivant",
+  "@nextButtonLabel": {},
+  "backButtonLabel": "Retour",
+  "@backButtonLabel": {},
+  "instanceFieldHint": "Instance",
+  "@instanceFieldHint": {},
+  "usernameFieldHint": "Nom d'utilisateur",
+  "@usernameFieldHint": {},
+  "passwordFieldHint": "Mot de passe",
+  "@passwordFieldHint": {},
+  "emailFieldHint": "Adresse E-Mail",
+  "@emailFieldHint": {},
+  "repeatPasswordFieldHint": "Confirmer le mot de passe",
+  "@repeatPasswordFieldHint": {},
+  "authPasswordNoMatch": "Les mots de passe doivent correspondre",
+  "@authPasswordNoMatch": {},
+  "forgotPasswordButtonLabel": "Mot de passe oublié",
+  "@forgotPasswordButtonLabel": {},
+  "createAccountButtonLabel": "Créer un nouveau compte",
+  "@createAccountButtonLabel": {},
+  "existingAccountButtonLabel": "Se connecter à un compte exsitant",
+  "@existingAccountButtonLabel": {},
+  "registerButtonLabel": "Inscrivez-vous",
+  "@registerButtonLabel": {},
+  "unsupportedInstanceTitle": "Ce type d'instance n'est actuellement pas pris en charge",
+  "@unsupportedInstanceTitle": {},
+  "unsupportedInstanceDescriptionCORS": "Kaiteki Web ne supporte pas {api} pour le moment car votre navigateur bloque les demandes à l'instance avec l'origine d'autres sites web. Pour plus d'informations, veuillez consulter ",
+  "@unsupportedInstanceDescriptionCORS": {
+    "placeholders": {
+      "api": {
+        "description": "Nom du programme de l'instance.",
+        "example": "Pleroma"
+      }
+    }
+  },
+  "addAccountButtonLabel": "Ajouter un compte",
+  "@addAccountButtonLabel": {},
+  "emojiRetrievalFailed": "Échec de la récupération des emojis",
+  "@emojiRetrievalFailed": {},
+  "threadRetrievalFailed": "Échec de la récupération du fil",
+  "@threadRetrievalFailed": {},
+  "conversationTitle": "Conversation",
+  "@conversationTitle": {
+    "description": "Titre utilisé pour la page de la conversation/du fil de discussion"
+  },
+  "emptyAccounts": "Pas de compte connecter",
+  "@emptyAccounts": {
+    "description": "Texte de remplacement utilisé si l'utilisateur n'a pas de compte."
+  },
+  "manageAccountsTitle": "Géré les comptes",
+  "@manageAccountsTitle": {},
+  "accountRemovalConfirmationTitle": "Supprimer le compte ?",
+  "@accountRemovalConfirmationTitle": {},
+  "accountRemovalConfirmationDescription": "Si vous supprimez ce compte, vous devrez vous reconnecter pour l'utiliser à nouveau.",
+  "@accountRemovalConfirmationDescription": {},
+  "switchListTileTextOn": "On",
+  "@switchListTileTextOn": {},
+  "switchListTileTextOff": "Off",
+  "@switchListTileTextOff": {},
+  "filteringIncludeSensitive": "Inclure les messages marqués comme sensibles",
+  "@filteringIncludeSensitive": {},
+  "filteringIncludeSubject": "Inclure les messages dont le sujet est",
+  "@filteringIncludeSubject": {},
+  "filteringSensitiveTitle": "Filtrer les messages sensibles",
+  "@filteringSensitiveTitle": {},
+  "composeButtonLabel": "Composer",
+  "@composeButtonLabel": {},
+  "composeDialogTitle": "Composer un nouveau poste",
+  "@composeDialogTitle": {},
+  "composeDialogTitleReply": "Répondre à ",
+  "@composeDialogTitleReply": {
+    "description": "Texte utilisé lorsque la boîte de dialogue est affichée pour rédiger une réponse. Il est complété par le nom d'utilisateur du destinataire de la réponse."
+  },
+  "discardButtonTooltip": "Jeter",
+  "@discardButtonTooltip": {},
+  "theme": "Théme",
+  "@theme": {},
+  "selectThemeTitle": "Sélectionner un théme",
+  "@selectThemeTitle": {},
+  "themeLight": "Light",
+  "@themeLight": {},
+  "themeDark": "Dark",
+  "@themeDark": {},
+  "themeSystem": "Comme le systéme",
+  "@themeSystem": {},
+  "creditsLicenses": "Open Source Licenses",
+  "@creditsLicenses": {},
+  "creditsGithubRepo": "Repo GitHub",
+  "@creditsGithubRepo": {},
+  "creditsWebsite": "Website",
+  "@creditsWebsite": {},
+  "attachmentUnsupported": "Pièce jointe non supportée",
+  "@attachmentUnsupported": {},
+  "viewOnlineButtonLabel": "Voir en ligne",
+  "@viewOnlineButtonLabel": {
+    "description": "Texte utilisée lorsque certains contenus ne peuvent pas être affichés dans Kaiteki mais pourraient l'être dans un navigateur web (par exemple, des vidéos)."
+  },
+  "timeDifferenceMinutes": "{minutes}m",
+  "@timeDifferenceMinutes": {
+    "description": "Texte utilisé pour afficher le nombre de minutes écoulées depuis un certain événement.",
+    "placeholders": {
+      "minutes": {
+        "description": "Nombre de minutes",
+        "example": "2"
+      }
+    }
+  },
+  "timeDifferenceHours": "{hours}h",
+  "@timeDifferenceHours": {
+    "description": "Texte utilisé pour afficher le nombre d'heures écoulées depuis un certain événement.",
+    "placeholders": {
+      "hours": {
+        "description": "Nombre d'heures",
+        "example": "2"
+      }
+    }
+  },
+  "timeDifferenceDays": "{days}j",
+  "@timeDifferenceDays": {
+    "description": "Texte utilisé pour afficher le nombre de jours écoulés depuis un certain événement.",
+    "placeholders": {
+      "days": {
+        "description": "Nombre de jours",
+        "example": "2"
+      }
+    }
+  },
+  "timeDifferenceWeeks": "{weeks}s",
+  "@timeDifferenceWeeks": {
+    "description": "Texte utilisé pour afficher le nombre de semaines écoulées depuis un certain événement.",
+    "placeholders": {
+      "weeks": {
+        "description": "Nombre de semaines",
+        "example": "2"
+      }
+    }
+  },
+  "timeDifferenceYears": "{years}a",
+  "@timeDifferenceYears": {
+    "description": "Texte utilisé pour afficher le nombre d'années écoulées depuis un certain événement.",
+    "placeholders": {
+      "years": {
+        "description": "Nombre d'années",
+        "example": "2"
+      }
+    }
+  },
+  "timeDifferenceSeconds": "{seconds}s",
+  "@timeDifferenceSeconds": {
+    "description": "Texte utilisé pour afficher le nombre de secondes écoulées depuis un certain événement.",
+    "placeholders": {
+      "seconds": {
+        "description": "Nombre de secondes",
+        "example": "2"
+      }
+    }
+  },
+  "timeDifferenceNow": "maintenant",
+  "@timeDifferenceNow": {
+    "description": "Texte utilisé pour afficher un événement qui vient de se produire"
+  },
+  "replyTo": "Répondre à",
+  "@replyTo": {
+    "description": "Est joint au nom d'utilisateur du destinataire de la réponse."
+  },
+  "postRepeated": "répétées",
+  "@postRepeated": {
+    "description": "Est précédé du nom d'affichage du répéteur."
+  },
+  "openInBrowserLabel": "Ouvrire dans le navigateur",
+  "@openInBrowserLabel": {},
+  "visibilityDirect": "Direct",
+  "@visibilityDirect": {},
+  "visibilityFollowersOnly": "Abonné·e·s",
+  "@visibilityFollowersOnly": {},
+  "visibilityUnlisted": "Non répertorié",
+  "@visibilityUnlisted": {},
+  "visibilityPublic": "Public",
+  "@visibilityPublic": {},
+  "visibilityDirectDescription": "Visible uniquement par les utilisateurs mentionnés",
+  "@visibilityDirectDescription": {},
+  "visibilityFollowersOnlyDescription": "Visible uniquement par les Abonné·e·s",
+  "@visibilityFollowersOnlyDescription": {},
+  "visibilityUnlistedDescription": "Visible par tout le monde, n'apparaît pas sur les historiques publics.",
+  "@visibilityUnlistedDescription": {},
+  "visibilityPublicDescription": "Visible par tout le monde",
+  "@visibilityPublicDescription": {},
+  "formattingPlain": "Texte en clair",
+  "@formattingPlain": {},
+  "formattingMfm": "Markdown à la saveur de Misskey",
+  "@formattingMfm": {},
+  "attachFilesButtonLabel": "Joindre des fichiers",
+  "@attachFilesButtonLabel": {},
+  "takePictureButtonLabel": "Prendre un photo",
+  "@takePictureButtonLabel": {},
+  "createPollButtonLabel": "Créer un sondage",
+  "@createPollButtonLabel": {},
+  "recordVoiceButtonLabel": "Enregistré une voix",
+  "@recordVoiceButtonLabel": {},
+  "subjectButtonLabelEnable": "Activer un sujet",
+  "@subjectButtonLabelEnable": {},
+  "subjectButtonLabelDisable": "Désactiver un sujet",
+  "@subjectButtonLabelDisable": {},
+  "timelineRetrievalFailed": "Échec de la récupération de l'historique",
+  "refresh": "Rafraîchir",
+  "attachmentNoDescription": "Pas de description",
+  "attachmentDownloadButtonLabel": "Télécharger le fichier joint",
+  "attachmentDownloadInProgress": "Téléchargement du fichier joint...",
+  "attachmentDownloadSuccessful": "{fileName} à bien était téléchargé.",
+  "@attachmentDownloadSuccessful": {
+    "placeholders": {
+      "fileName": {
+        "description": "Nom du fichier que l'utilisateur a téléchargé",
+        "example": "image.jpg"
+      }
+    }
+  },
+  "attachmentDownloadDialogTitle": "Télécharger le fichier joint",
+  "creditsTelegramChannel": "Canal Télégramme",
+  "discardDraftDialogTitle": "Rejeter le projet ?",
+  "discardDraftDialogDescription": "Êtes-vous sûr de vouloir jeter ce projet ?",
+  "discardButtonLabel": "Jeter",
+  "keepWritingButtonLabel": "Continuez à écrire",
+  "whyButtonLabel": "Pourquoi ?",
+  "refreshTimelineButtonLabel": "Rafraîchir",
+  "postBookmarkAdded": "Ajouter un marque-page",
+  "postBookmarkRemoved": "Supprimer le marque-page",
+  "postBookmarkFailed": "Échec de l'ajout ou de la suppression d'un poste dans le marque-page",
+  "postFavoriteFailed": "Échec de l'annulation/de la mise en favori du poste",
+  "postRepeatFailed": "Echec de la dé-/répétition du message",
+  "postRemoveFromBookmarks": "Supprimer le marque-page",
+  "postAddToBookmarks": "Marque-pages",
+  "bookmarksTab": "Marque-pages",
+  "reportLabel": "Signaler",
+  "reportsTitle": "Soumettre un rapport",
+  "accountSettingsTitle": "Paramètre du compte",
+  "reportSupport": "Signaler un abus",
+  "reportSupportDescription": "Signale des utilisateurs ou des messages à l'équipe de modération.",
+  "bookmarkSupport": "Marque-page",
+  "bookmarkSupportDescription": "Ajoutez les articles à vos marque-pages pour les voir dans l'onglet marque-page.",
+  "timelineFederated": "Fédéré",
+  "timelineHome": "Accueil",
+  "timelineLocal": "Local",
+  "timelineDirectMessages": "Messages directs",
+  "timelineBookmarks": "Marque-pages",
+  "timelineFederatedDescription": "Postes du monde entier à travers le Fediverse",
+  "timelineHomeDescription": "Posts de vous et des personnes que vous suivez",
+  "timelineLocalDescription": "Posts de tous les membres de votre instance",
+  "timelineDirectMessagesDescription": "Messages envoyés directement aux autres",
+  "timelineBookmarksDescription": "Les postes que vous avez marqués d'un marque-page",
+  "keyboardShortcuts": "Raccorcie clavier",
+  "keyboardShortcutsOpenDialog": "Voire les raccourcie clavier",
+  "keyboardShortcutsReplyToPost": "Répondre au poste",
+  "keyboardShortcutsFavoritePost": "Ajouter le poste au Favori",
+  "keyboardShortcutsRepeatPost": "Répéter le poste",
+  "keyboardShortcutsBookmarkPost": "Ajouter au marque-page",
+  "keyboardShortcutsSubmitPost": "Envoyer le poste",
+  "keyboardShortcutsRefreshView": "Rafraîchir la page",
+  "keyboardShortcutsGoToSettings": "Aller aux paramètres",
+  "keyboardShortcutsGoToNotifications": "Aller aux notifications",
+  "keyboardShortcutsGoToBookmarks": "Aller aux marque-pages",
+  "keyboardShortcutsGoToHome": "Aller à l'Accueil",
+  "keyboardShortcutsPostShortcuts": "Raccourcis de poste",
+  "keyboardShortcutsNavigation": "Navigation",
+  "keyboardShortcutsComposePost": "Rédiger un nouveau poste",
+  "closeButtonLabel": "Fermer",
+  "authInstructions": "Pour ajouter un compte, saisissez l'adresse du site web de l'instance que vous souhaitez utiliser.",
+  "featureSupportListTileTitle": "Fonctionnalités prises en charge mutuellement",
+  "featureSupportListTileSubtitle": "Voir les fonctionnalités que vous pouvez utiliser avec Kaiteki sur cette instance",
+  "mfaInstructions": "Ce compte utilise l'authentification multifactorielle, veuillez saisir le code ci-dessous :",
+  "directMessagesTitle": "Messages Directs",
+  "listsTitle": "Lists",
+  "trendsTitle": "Tendances",
+  "bookmarksEmpty": "Pas de marque-pages",
+  "favoritesEmpty": "Pas de favoris",
+  "repeatsEmpty": "Pas de répétitions",
+  "repeateesTitle": "Repeated by",
+  "favoriteesTitle": "Favorisé par",
+  "useMaterialYou": "Utilisez Material You",
+  "settingsLocale": "Langage",
+  "selectLocaleTitle": "Sélectionnez la langue",
+  "languageName": "Français (FR)",
+  "localeSystem": "Comme le systéme",
+  "postPinned": "Épinglé",
+  "noMorePosts": "Mince... Il n'y a plus rien à voire ;-;",
+  "timelineBubble": "Bulle",
+  "timelineBubbleDescription": "Postes des instances voisines",
+  "showAltTextTooltip": "Afficher le texte alternatif",
+  "copyAttachmentUrl": "Copie de l'adresse de la pièce jointe",
+  "copiedToClipboard": "Copié dans le presse-papiers",
+  "visibilityCircle": "Cercle",
+  "visibilityCircleDescription": "Visible par les utilisateurs de votre cercle",
+  "pageViewTitle": "{current} sur {total}",
+  "@pageViewTitle": {
+    "placeholders": {
+      "current": {
+        "description": "Numéro actuel de la page",
+        "example": "2"
+      },
+      "total": {
+        "description": "Nombre total de pages disponibles",
+        "example": "10"
+      }
+    }
+  },
+  "emojiUnicodeGroupSmileysEmotion": "Sourire et émotion",
+  "emojiUnicodeGroupPeopleBody": "Personnes et corps",
+  "emojiUnicodeGroupAnimalsNature": "Animaux et nature",
+  "emojiUnicodeGroupFoodDrink": "Nourriture et boissons",
+  "emojiUnicodeGroupTravelPlaces": "Voyages et lieux",
+  "emojiUnicodeGroupActivities": "Activités",
+  "emojiUnicodeGroupObjects": "Objets",
+  "emojiUnicodeGroupSymbols": "Symboles",
+  "emojiUnicodeGroupFlags": "Drapeaux"
+}
